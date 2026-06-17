@@ -16,7 +16,7 @@
 
 ## Datos completados ✅
 
-- [x] **Precio** — $325,000 MXN
+- [x] **Precio** — $330,000 MXN
 - [x] **Motor** — 2.0L T (4 cilindros, confirmado con tarjeta)
 - [x] **Transmisión** — DSG
 - [x] **Modelo exacto** — Audi Q5 2018 2.0L T Dynamic DSG (5 puertas)

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slide 2 - Exterior</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0a0a0a;
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    background: linear-gradient(180deg, #0a0a0a 0%, #111111 100%);
+    overflow: hidden;
+  }
+  .slide::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse at 70% 30%, rgba(212, 175, 55, 0.06) 0%, transparent 60%);
+  }
+  .section-label {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-size: 18px;
+    color: #d4af37;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    z-index: 10;
+  }
+  .car-image {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 45%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+    z-index: 2;
+  }
+  .content {
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+    right: 60px;
+    z-index: 5;
+  }
+  .title {
+    font-size: 64px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 30px;
+  }
+  .title span {
+    color: #d4af37;
+  }
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .feature-box {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .feature-icon {
+    font-size: 28px;
+    color: #d4af37;
+    margin-bottom: 8px;
+  }
+  .feature-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 6px;
+  }
+  .feature-desc {
+    font-size: 18px;
+    color: #999;
+    line-height: 1.4;
+  }
+  .page-indicator {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    font-size: 24px;
+    color: #d4af37;
+    font-weight: 600;
+    z-index: 10;
+  }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="section-label">Diseño Exterior</div>
+  <img src="../imagenes/exterior/lateral_derecha_01.JPG" class="car-image" alt="Audi Q5 Exterior">
+  <div class="content">
+    <div class="title">Elegancia <span>Audi</span></div>
+    <div class="features-grid">
+      <div class="feature-box">
+        <div class="feature-icon">&#9733;</div>
+        <div class="feature-title">Faros LED</div>
+        <div class="feature-desc">Iluminación Matrix LED adaptativa</div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">&#9733;</div>
+        <div class="feature-title">Rines 19"</div>
+        <div class="feature-desc">Aleación deportiva de aluminio</div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">&#9733;</div>
+        <div class="feature-title">Techo Panorámico</div>
+        <div class="feature-desc">Vista panorámica eléctrica</div>
+      </div>
+      <div class="feature-box">
+        <div class="feature-icon">&#9733;</div>
+        <div class="feature-title">Quattro AWD</div>
+        <div class="feature-desc">Tracción integral permanente</div>
+      </div>
+    </div>
+  </div>
+  <div class="page-indicator">2/5</div>
+</div>
+</body>
+</html>

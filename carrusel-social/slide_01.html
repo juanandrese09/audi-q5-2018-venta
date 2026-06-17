@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slide 1 - Portada</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0a0a0a;
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    position: relative;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #0a0a0a 100%);
+    overflow: hidden;
+  }
+  .slide::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse at 30% 50%, rgba(212, 175, 55, 0.08) 0%, transparent 70%);
+  }
+  .badge {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background: linear-gradient(135deg, #d4af37, #b8960c);
+    color: #0a0a0a;
+    padding: 12px 28px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    z-index: 10;
+  }
+  .car-image {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 55%;
+    object-fit: contain;
+    object-position: bottom center;
+    z-index: 2;
+  }
+  .content {
+    position: absolute;
+    top: 140px;
+    left: 60px;
+    right: 60px;
+    text-align: center;
+    z-index: 5;
+  }
+  .title {
+    font-size: 90px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+  }
+  .title span {
+    color: #d4af37;
+  }
+  .subtitle {
+    font-size: 32px;
+    color: #cccccc;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  .feature-item {
+    text-align: center;
+  }
+  .feature-number {
+    font-size: 48px;
+    font-weight: 900;
+    color: #d4af37;
+    display: block;
+  }
+  .feature-label {
+    font-size: 18px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .page-indicator {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    font-size: 24px;
+    color: #d4af37;
+    font-weight: 600;
+    z-index: 10;
+  }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="badge">En Venta</div>
+  <div class="content">
+    <div class="title">AUDI <span>Q5</span></div>
+    <div class="subtitle">Premium SUV · 2018</div>
+    <div class="features">
+      <div class="feature-item">
+        <span class="feature-number">2.0L</span>
+        <span class="feature-label">Turbo</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-number">252</span>
+        <span class="feature-label">HP</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-number">AWD</span>
+        <span class="feature-label">Quattro</span>
+      </div>
+    </div>
+  </div>
+  <img src="../imagenes/exterior/frente_diagonal_izquierda_01.JPG" class="car-image" alt="Audi Q5">
+  <div class="page-indicator">1/5</div>
+</div>
+</body>
+</html>

@@ -22,7 +22,7 @@
 - [x] **Modelo exacto** — Audi Q5 2018 2.0L T Dynamic DSG (5 puertas)
 - [x] **Capacidad** — 5 pasajeros (confirmado con tarjeta)
 - [x] **Uso** — Particular (confirmado con tarjeta)
-- [x] **Precio negociable** — Sí considero cambios
+- [x] **Precio no negociable** — No considero cambios
 - [x] **Verificaciones** — Mayo 2020, 2022, 2024 (placa termina en 3)
 - [x] **Tenencias** — Todas pagadas al corriente
 - [x] **Tarjeta de circulación** — Expedida marzo 2019

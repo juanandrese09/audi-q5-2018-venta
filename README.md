@@ -45,7 +45,7 @@ audi-2018-venta/
 | Dueños | Único dueño |
 | Tarjeta de circulación | Expedida marzo 2019 |
 | Documentación | Todo pagado y verificado |
-| Precio | **$325,000 MXN** (negociable, se consideran cambios) |
+| Precio | **$325,000 MXN** (precio no negociable, no se aceptan cambios) |
 | Motivo de venta | Salida del país |
 | Historial | Sin accidentes, sin problemas mecánicos |
 | Verificaciones | Mayo 2020, 2022, 2024 (placa termina en 3) |
